@@ -3,7 +3,7 @@ References:
   1. https://typst.app/project/p_Bky8MIksPGK39OpsflJw
 */
 
-#import "@preview/fontawesome:0.1.0" as fa
+#import "@preview/fontawesome:0.1.1" as fa
 
 #let entry(
   tl: lorem(4), // "Role | Employer/Project",
