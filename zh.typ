@@ -1,0 +1,127 @@
+#import "tmpl.typ": *
+
+#let author = "王天舒"
+
+#show: body => tmpl(
+  author: author,
+  lang: "zh",
+  body
+)
+
+= #author
+
+#let sep = [ #h(0.5pt) | #h(0.5pt) ]
+
+#fa.fa-envelope(fa-set: "free solid") #link("mailto:contact@wang.tianshu.me")[contact\@wang.tianshu.me] #sep
+#fa.fa-github() #link("https://github.com/tshu-w")[github.com/tshu-w] #sep
+// #fa.fa-phone() (+86) 188-0115-7128 #sep
+#fa.fa-location-dot() 北京
+
+== 教育经历
+
+#entry(
+  tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
+  tr: "2019 年 9 月 - 2025 年 6 月",
+)[
+  - 研究方向：LLM，Entity Resolution，Retrieval和Text-to-SQL等 #h(1fr) 导师：孙乐，韩先培研究员
+  - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金 #h(1fr) 硕转博
+]
+
+/*
+#entry(
+  tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
+  tr: "2021 年 9 月 - 2025 年 6 月",
+)[
+  - 研究方向：LLM 及其在数据科学中的应用 #h(1fr) 导师：孙乐研究员
+  - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金
+]
+
+#entry(
+  tl: [*中国科学院软件研究所*，计算机软件与理论，硕士],
+  tr: "2019 年 9 月 - 2021 年 9 月",
+)[
+  - 研究方向：实体消解（Entity Resolution）#h(1fr) 导师：韩先培研究员
+]
+*/
+
+#entry(
+  tl: [*北京交通大学*，计算机科学与技术，学士],
+  tr: "2015 年 9 月 - 2019 年 6 月",
+)[
+  - 平均绩点：91.2/100（前 10%），英语六级：513，推荐免试攻读研究生
+]
+
+== 科研经历
+
+#entry(
+  tl: [T. Wang et al., “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. DOI: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tr: [CCF-A],
+)[
+  - 分析实体匹配基准隐含的不合理假设，构建首个开放实体、不平衡标签和多模态基准，以缓解评估偏差
+]
+
+#entry(
+  tl: [T. Wang et al., “DBCopilot: Scaling Natural Language Querying to Massive Databases”, CoRR, 2023, \[Online\]. Available: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
+  tr: [投稿至 KDD 2024],
+)[
+  - 提出一种大小模型协同合作，生成式联合检索的 Text-to-SQL 框架，将自然语言查询扩展到海量数据库
+
+]
+
+#entry(
+  tl: [T. Wang et al., “Match, Compare, or Select? An Investigation of Entity Matching with Large Language Models”, CoRR, 2024.],
+  tr: [投稿至 ACL ARR 2024 February],
+)[
+  - 探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有效率和成效的组合式框架
+]
+
+#entry(
+  tl: [T. Wang et al., “Towards Universal Dense Blocking for Entity Resolution,” CoRR, 2023.],
+  tr: [],
+)[
+  - 基于 GitTables 训练通用实体记录（Record）编码器，以实现无需特定领域数据微调的稠密分块
+]
+
+== 工作经历
+
+#entry(
+  tl: [*AI Lab实习生*｜字节跳动],
+  tr: "2019 年 2 月  - 2019 年 8 月",
+)[
+  协助头条搜索「精准问答」项目的开发及优化
+  - 使用 Spark & Hive 统计每日 Top 10 查询的精准问答覆盖情况，为正向挖掘提供支持
+  - 通过 MapReduce 对全量 CQA 数据根据规则、答案类型、问题意图、答案质量等维度进行筛选
+  - 使用动态规划算法优化答案片段抽取模块，提升 >50% 的答案摘要抽取效率
+]
+
+== 荣誉奖项
+
+#entry(
+  tl: [*国际大学生程序设计竞赛（ICPC）亚洲区域赛*],
+  tr: "2016 年 - 2018 年",
+)[
+  - 金奖 #sym.times 2：第42届北京站，第43届焦作站
+  - 银奖 #sym.times 3：第42届乌鲁木齐站，第42、43届东部赛区总决赛
+  - 铜奖 #sym.times 1：第41届东部赛区总决赛
+]
+
+#entry(
+  tl: [*中国大学生程序设计竞赛（CCPC）*],
+  tr: "2017 年 - 2018 年",
+)[
+  - 季军 #sym.times 1：第4届全国邀请赛湘潭站
+  - 金奖 #sym.times 3：第3届秦皇岛站，第4届桂林站、吉林站
+]
+
+== 专业技能
+
+- 技术特长：熟悉 LLM 训练及 Agent 应用，信息检索，表示学习，软件开发，DevOps，数据分析等
+- 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java
+- 系统软件：熟练使用 macOS/Linux，Emacs，Git，Pytorch，Docker，Ray，Spark，#LaTeX 等
+- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）#link("https://github-profile-summary-cards.vercel.app/demo.html")[等 46 个]开源项目多次贡献代码
+
+// == 学术论文
+
+// #bibliography("pub.bib", title: none, full: true)
+
+#align(right, text(fill: gray)[最后更新于 #datetime.today().display("[year]年[month]月[day]日")])
