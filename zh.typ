@@ -12,7 +12,7 @@
 
 #let sep = [ #h(0.5pt) | #h(0.5pt) ]
 
-#fa.fa-envelope(fa-set: "free solid") #link("mailto:contact@wang.tianshu.me")[contact\@wang.tianshu.me] #sep
+#fa.fa-envelope(solid: true) #link("mailto:contact@wang.tianshu.me")[contact\@wang.tianshu.me] #sep
 #fa.fa-github() #link("https://github.com/tshu-w")[github.com/tshu-w] #sep
 // #fa.fa-phone() (+86) 188-0115-7128 #sep
 #fa.fa-location-dot() 北京
