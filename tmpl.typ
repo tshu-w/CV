@@ -26,6 +26,7 @@ References:
   align: "left",
   inline-heading: true,
   textsize: 11pt, // The recommend resume text size is from `10pt` to `12pt`
+  margin: (x: 1.5cm, y: 2cm),
   body
 ) = {
   let fonts = ()
@@ -74,7 +75,7 @@ References:
   )
   set page(
     paper: "a4",
-    margin: (x: 1.5cm, y: 2cm),
+    margin: margin,
     numbering: "1 / 1",
   )
   set par(
