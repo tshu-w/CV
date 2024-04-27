@@ -16,6 +16,7 @@
 #fa.fa-envelope(solid: true) #link("mailto:contact@wang.tianshu.me")[contact\@wang.tianshu.me] #sep
 #fa.fa-github() #link("https://github.com/tshu-w")[github.com/tshu-w] #sep
 #fa.fa-location-dot() Beijing, China
+#h(1fr) #link("https://files.tianshu.me/cv/en.pdf")[Online Version]
 
 == Education
 
@@ -110,4 +111,4 @@
 - Software: macOS/Linux, Emacs, Git, Docker, Ray, Spark, #LaTeX
 - Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("https://github-profile-summary-cards.vercel.app/demo.html")[other 46] repositories.
 
-#align(right, text(fill: gray)[Last Updated on #datetime.today().display("[month repr:short] [day padding:space], [year]")])
+#align(right, text(fill: gray, size: 0.9em)[Last Updated on #datetime.today().display("[month repr:short] [day padding:space], [year]")])

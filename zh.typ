@@ -16,6 +16,7 @@
 #fa.fa-github() #link("https://github.com/tshu-w")[github.com/tshu-w] #sep
 // #fa.fa-phone() (+86) 188-0115-7128 #sep
 #fa.fa-location-dot() 北京
+#h(1fr) #link("https://files.tianshu.me/cv/zh.pdf")[在线版本]
 
 == 教育经历
 
@@ -124,4 +125,4 @@
 
 // #bibliography("pub.bib", title: none, full: true)
 
-#align(right, text(fill: gray)[最后更新于 #datetime.today().display("[year]年[month]月[day]日")])
+#align(right, text(fill: gray, size: 0.9em)[最后更新于 #datetime.today().display("[year]年[month]月[day]日")])
