@@ -12,7 +12,6 @@ jobs:
         with:
           cache-dependency-path: tmpl.typ
       - run: |
-          brew tap homebrew/cask-fonts
           brew install font-fontawesome font-noto-serif-cjk-sc font-noto-sans-cjk-sc
       - run: |
           mkdir artifacts
