@@ -26,7 +26,7 @@
   dl: [PhD of Computer Science and Technology (transfer from Masters to PhD)],
   dr: [Beijing, China],
 )[
-  - Research Intrest: LLM and its applications for Data (Entity Resolution and Data Analytics).
+  - Research Intrest: LLM for Data Intelligence (Entity Resolution, Text2SQL, and Structured Text Retrieval) .
   - GPA: 3.73/4 (2rd), Honors: Outstanding Student, First-Class Academic Scholarship
 ]
 
@@ -42,7 +42,7 @@
 == Research Experience
 
 #entry(
-  tl: [T. Wang et al., “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. DOI: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tl: [Tianshu Wang _et al._, “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
   tr: [],
 )[
   - Analyze the erroneous assumptions implied in entity matching benchmarks
@@ -50,7 +50,7 @@
 ]
 
 #entry(
-  tl: [T. Wang et al., “DBCopilot: Scaling Natural Language Querying to Massive Databases”, CoRR, 2023, \[Online\]. Available: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
+  tl: [Tianshu Wang _et al._, “DBCopilot: Scaling Natural Language Querying to Massive Databases”, _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
   tr: [Submit to KDD 2024],
 )[
   - Present a LLM-Copilot collaboration framework for scaling natural language querying to massive databases
@@ -58,7 +58,7 @@
 ]
 
 #entry(
-  tl: [T. Wang et al., “Match, Compare, or Select? An Investigation of Entity Matching with Large Language Models”, CoRR, 2024.],
+  tl: [Tianshu Wang _et al._, “Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching”, _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
   tr: [Submit to ACL ARR 2024 February],
 )[
   - Investigate different (proposed) strategies for entity matching with LLMs
@@ -66,7 +66,7 @@
 ]
 
 #entry(
-  tl: [T. Wang et al., “Towards Universal Dense Blocking for Entity Resolution”, CoRR, 2023.],
+  tl: [Tianshu Wang _et al._, “Towards Universal Dense Blocking for Entity Resolution,” _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
   tr: [],
 )[
   - Pretrain a universal structured record representation model for dense blocking without domain-specific training
@@ -109,6 +109,6 @@
 - Expertise: Software development, Data Structures & Algorithms, DevOps, Data Analytics
 - Programming Languages: Python, C++, C, Bash | SQL, Java, Lua, TypeScript
 - Software: macOS/Linux, Emacs, Git, Docker, Ray, Spark, #LaTeX
-- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("https://github-profile-summary-cards.vercel.app/demo.html")[other 46] repositories.
+- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tshu-w&theme=default")[other 45] repositories.
 
 #align(right, text(fill: gray, size: 0.9em)[Last Updated on #datetime.today().display("[month repr:short] [day padding:space], [year]")])
