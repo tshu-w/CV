@@ -24,7 +24,7 @@
   tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
   tr: "2019 年 9 月 - 2025 年 6 月",
 )[
-  - 研究方向：LLM，Entity Resolution，Retrieval和Text-to-SQL等 #h(1fr) 导师：孙乐，韩先培研究员
+  - 研究方向：LLM，Entity Resolution，Text2SQL 和 Structured Text Retrieval #h(1fr) 导师：孙乐，韩先培研究员
   - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金 #h(1fr) 硕转博
 ]
 
@@ -55,14 +55,14 @@
 == 科研经历
 
 #entry(
-  tl: [T. Wang et al., “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. DOI: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tl: [Tianshu Wang _et al._, “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
   tr: [CCF-A],
 )[
   - 分析实体匹配基准隐含的不合理假设，构建首个开放实体、不平衡标签和多模态基准，以缓解评估偏差
 ]
 
 #entry(
-  tl: [T. Wang et al., “DBCopilot: Scaling Natural Language Querying to Massive Databases”, CoRR, 2023, \[Online\]. Available: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
+  tl: [Tianshu Wang _et al._, “DBCopilot: Scaling Natural Language Querying to Massive Databases”, _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
   tr: [投稿至 KDD 2024],
 )[
   - 提出一种大小模型协同合作，生成式联合检索的 Text-to-SQL 框架，将自然语言查询扩展到海量数据库
@@ -70,24 +70,24 @@
 ]
 
 #entry(
-  tl: [T. Wang et al., “Match, Compare, or Select? An Investigation of Entity Matching with Large Language Models”, CoRR, 2024.],
-  tr: [投稿至 ACL ARR 2024 February],
+  tl: [Tianshu Wang _et al._, “Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching”, _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
+  tr: [投稿至 ACL ARR 2024 June],
 )[
-  - 探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有效率和成效的组合式框架
+  - 探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有成效和效率的组合式框架
 ]
 
 #entry(
-  tl: [T. Wang et al., “Towards Universal Dense Blocking for Entity Resolution,” CoRR, 2023.],
+  tl: [Tianshu Wang _et al._, “Towards Universal Dense Blocking for Entity Resolution,” _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
   tr: [],
 )[
-  - 基于 GitTables 训练通用实体记录（Record）编码器，以实现无需特定领域数据微调的稠密分块
+  - 基于 GitTables 训练通用实体记录（Record）表示模型，以实现无需特定领域数据微调的稠密分块
 ]
 
 == 工作经历
 
 #entry(
   tl: [*AI Lab实习生*｜字节跳动],
-  tr: "2019 年 2 月  - 2019 年 8 月",
+  tr: "2019 年 2 月 - 2019 年 8 月",
 )[
   协助头条搜索「精准问答」项目的开发及优化
   - 使用 Spark & Hive 统计每日 Top 10 查询的精准问答覆盖情况，为正向挖掘提供支持
@@ -119,7 +119,7 @@
 - 技术特长：熟悉 LLM 训练及 Agent 应用，信息检索，表示学习，软件开发，DevOps，数据分析等
 - 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java
 - 系统软件：熟练使用 macOS/Linux，Emacs，Git，Pytorch，Docker，Ray，Spark，#LaTeX 等
-- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）等#link("https://github-profile-summary-cards.vercel.app/demo.html")[46]个开源项目多次贡献代码
+- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）等#link("http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tshu-w&theme=default")[45]个开源项目多次贡献代码
 
 // == 学术论文
 
