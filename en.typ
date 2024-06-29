@@ -42,7 +42,7 @@
 == Research Experience
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
   tr: [],
 )[
   - Analyze the erroneous assumptions implied in entity matching benchmarks
@@ -50,7 +50,7 @@
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “DBCopilot: Scaling Natural Language Querying to Massive Databases”, _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
+  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
   tr: [Submit to KDD 2024],
 )[
   - Present a LLM-Copilot collaboration framework for scaling natural language querying to massive databases
@@ -58,7 +58,7 @@
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching”, _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
+  tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
   tr: [Submit to ACL ARR 2024 February],
 )[
   - Investigate different (proposed) strategies for entity matching with LLMs
@@ -66,7 +66,7 @@
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Towards Universal Dense Blocking for Entity Resolution,” _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
+  tl: [Tianshu Wang _et al._, "Towards Universal Dense Blocking for Entity Resolution", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
   tr: [],
 )[
   - Pretrain a universal structured record representation model for dense blocking without domain-specific training

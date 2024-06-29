@@ -55,29 +55,29 @@
 == 科研经历
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution”, in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
   tr: [CCF-A],
 )[
   - 分析实体匹配基准隐含的不合理假设，构建首个开放实体、不平衡标签和多模态基准，以缓解评估偏差
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “DBCopilot: Scaling Natural Language Querying to Massive Databases”, _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
+  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
   tr: [投稿至 KDD 2024],
 )[
-  - 提出一种大小模型协同合作，生成式联合检索的 Text-to-SQL 框架，将自然语言查询扩展到海量数据库
+  - 提出一种大小模型协同合作，生成式联合检索的 Text2SQL 框架，将自然语言查询扩展到海量数据库
 
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching”, _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
+  tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
   tr: [投稿至 ACL ARR 2024 June],
 )[
   - 探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有成效和效率的组合式框架
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, “Towards Universal Dense Blocking for Entity Resolution,” _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
+  tl: [Tianshu Wang _et al._, "Towards Universal Dense Blocking for Entity Resolution", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2404.14831")[10.48550/arXiv.2404.14831].],
   tr: [],
 )[
   - 基于 GitTables 训练通用实体记录（Record）表示模型，以实现无需特定领域数据微调的稠密分块
