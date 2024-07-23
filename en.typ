@@ -109,6 +109,6 @@
 - Expertise: Software development, Data Structures & Algorithms, DevOps, Data Analytics
 - Programming Languages: Python, C++, C, Bash | SQL, Java, Lua, TypeScript
 - Software: macOS/Linux, Emacs, Git, Docker, Ray, Spark, #LaTeX
-- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tshu-w&theme=default")[other 45] repositories.
+- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("https://github.com/pulls?page=4&q=is%3Apr+author%3Atshu-w")[other 33] repositories.
 
 #align(right, text(fill: gray, size: 0.9em)[Last Updated on #datetime.today().display("[month repr:short] [day padding:space], [year]")])

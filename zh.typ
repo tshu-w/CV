@@ -119,7 +119,7 @@
 - 技术特长：熟悉 LLM 训练及 Agent 应用，信息检索，表示学习，软件开发，DevOps，数据分析等
 - 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java
 - 系统软件：熟练使用 macOS/Linux，Emacs，Git，Pytorch，Docker，Ray，Spark，#LaTeX 等
-- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）等#link("http://github-profile-summary-cards.vercel.app/api/cards/stats?username=tshu-w&theme=default")[45]个开源项目多次贡献代码
+- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）等#link("https://github.com/pulls?page=4&q=is%3Apr+author%3Atshu-w")[33]个开源项目多次贡献代码
 
 // == 学术论文
 
