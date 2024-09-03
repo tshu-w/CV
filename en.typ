@@ -22,7 +22,7 @@
 
 #entry(
   tl: [*Institute of Software, Chinese Academy of Sciences*],
-  tr: [Sep 2019 - Jun 2025],
+  tr: [Sep 2019 - Jul 2025],
   dl: [PhD of Computer Science and Technology (transfer from Masters to PhD)],
   dr: [Beijing, China],
 )[
@@ -32,7 +32,7 @@
 
 #entry(
   tl: [*Beijing Jiaotong University*],
-  tr: [Sep 2015 - Jun 2019],
+  tr: [Sep 2015 - Jul 2019],
   dl: [Bachelor of Computer Science and Technology],
   dr: [Beijing, China],
 )[
@@ -51,7 +51,7 @@
 
 #entry(
   tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
-  tr: [Submit to KDD 2024],
+  tr: [Submit to ICDE 2025],
 )[
   - Present a LLM-Copilot collaboration framework for scaling natural language querying to massive databases
   - Propose a relation-aware, generative joint retrieval approach for schema routing

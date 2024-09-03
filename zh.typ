@@ -22,7 +22,7 @@
 
 #entry(
   tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
-  tr: "2019 年 9 月 - 2025 年 6 月",
+  tr: "2019 年 9 月 - 2025 年 7 月",
 )[
   - 研究方向：LLM，Entity Resolution，Text2SQL 和 Structured Text Retrieval #h(1fr) 导师：孙乐，韩先培研究员
   - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金 #h(1fr) 硕转博
@@ -31,7 +31,7 @@
 /*
 #entry(
   tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
-  tr: "2021 年 9 月 - 2025 年 6 月",
+  tr: "2021 年 9 月 - 2025 年 7 月",
 )[
   - 研究方向：LLM 及其在数据科学中的应用 #h(1fr) 导师：孙乐研究员
   - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金
@@ -47,7 +47,7 @@
 
 #entry(
   tl: [*北京交通大学*，计算机科学与技术，学士],
-  tr: "2015 年 9 月 - 2019 年 6 月",
+  tr: "2015 年 9 月 - 2019 年 7 月",
 )[
   - 平均绩点：91.2/100（前 10%），英语六级：513，推荐免试攻读研究生
 ]
@@ -62,8 +62,8 @@
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
-  tr: [投稿至 KDD 2024],
+  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463]. #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 48 stars],
+  tr: [投稿至 ICDE 2025],
 )[
   - 提出一种大小模型协同合作，生成式联合检索的 Text2SQL 框架，将自然语言查询扩展到海量数据库
 
