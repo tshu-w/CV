@@ -36,13 +36,14 @@ References:
         "Georgia",
         "Palatino",
         "Garamond",
-        "Linux Libertine",
+        "Libertinus Serif",
       )
     } else {
       fonts = (
         "Helvetica Neue",
         "Gill Sans",
         "Optima",
+        "Libertinus Sans",
       )
     }
   } else if lang == "zh" {
@@ -72,6 +73,7 @@ References:
     font: fonts,
     lang: lang,
     size: textsize,
+    number-type: if lang == "zh" {"lining"} else {auto},
   )
   set page(
     paper: "a4",

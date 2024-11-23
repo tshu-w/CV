@@ -18,14 +18,14 @@
 #fa.fa-location-dot() 北京
 #h(1fr) #link("https://files.tianshu.me/cv/zh.pdf")[在线版本]
 
-== 教育经历
+== 教育背景
 
 #entry(
   tl: [*中国科学院软件研究所・国科大杭高院*，计算机科学与技术，博士],
   tr: "2019 年 9 月 - 2025 年 7 月",
 )[
   - 研究方向：LLM，Entity Resolution，Text2SQL 和 Structured Text Retrieval #h(1fr) 导师：孙乐，韩先培研究员
-  - 平均绩点：3.73/4，获得荣誉：三好学生，一等学业奖学金 #h(1fr) 硕转博
+  - 平均绩点：3.73/4，荣誉奖项：三好学生，一等学业奖学金 #h(1fr) 硕转博
 ]
 
 /*
@@ -49,20 +49,20 @@
   tl: [*北京交通大学*，计算机科学与技术，学士],
   tr: "2015 年 9 月 - 2019 年 7 月",
 )[
-  - 平均绩点：91.2/100（前 10%），英语六级：513，推荐免试攻读研究生
+  - 平均绩点：91.2/100（前 10%），英语水平：六级 513，荣誉奖项：推荐免试研究生
 ]
 
 == 科研经历
 
 #entry(
-  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
-  tr: [CCF-A],
+  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­-Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tr: [CCF-A Oral],
 )[
   - 分析实体匹配基准隐含的不合理假设，构建首个开放实体、不平衡标签和多模态基准，以缓解评估偏差
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463]. #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 48 stars],
+  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463]. #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 59 stars],
   tr: [投稿至 ICDE 2025],
 )[
   - 提出一种大小模型协同合作，生成式联合检索的 Text2SQL 框架，将自然语言查询扩展到海量数据库
@@ -73,7 +73,7 @@
   tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
   tr: [投稿至 ACL ARR 2024 June],
 )[
-  - 探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有成效和效率的组合式框架
+  - 提出并探究 LLM 用于实体匹配的不同策略，并基于探究结果设计了一种更有成效和效率的组合式框架
 ]
 
 #entry(
@@ -90,10 +90,17 @@
   tr: "2019 年 2 月 - 2019 年 8 月",
 )[
   协助头条搜索「精准问答」项目的开发及优化
-  - 使用 Spark & Hive 统计每日 Top 10 查询的精准问答覆盖情况，为正向挖掘提供支持
-  - 通过 MapReduce 对全量 CQA 数据根据规则、答案类型、问题意图、答案质量等维度进行筛选
-  - 使用动态规划算法优化答案片段抽取模块，提升 >50% 的答案摘要抽取效率
+  - 使用 Spark & Hive 统计综搜每日 Top 10 的精准问答覆盖情况，为正向挖掘提供支持
+  - 通过 MapReduce 对全量七亿+ CQA 数据根据规则、答案类型、问题意图、答案质量等维度进行筛选
+  - 使用动态规划算法优化答案摘要生成模块，提升 >50% 的摘要抽取效率
 ]
+
+// #entry(
+//   tl: [*大模型算法实习生*｜商汤],
+//   tr: "2024 年 6 月 - 2024 年 12 月",
+// )[
+
+// ]
 
 == 荣誉奖项
 
@@ -119,7 +126,7 @@
 - 技术特长：熟悉 LLM 训练及 Agent 应用，信息检索，表示学习，软件开发，DevOps，数据分析等
 - 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java
 - 系统软件：熟练使用 macOS/Linux，Emacs，Git，Pytorch，Docker，Ray，Spark，#LaTeX 等
-- 开源贡献：向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Lightning-AI/pytorch-lightning]（10 commits）等#link("https://github.com/pulls?page=4&q=is%3Apr+author%3Atshu-w")[33]个开源项目多次贡献代码
+- 开源贡献：积极参与开源社区，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning]（10 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[38]个开源项目多次贡献代码
 
 // == 学术论文
 
