@@ -3,7 +3,7 @@ References:
   1. https://typst.app/project/p_Bky8MIksPGK39OpsflJw
 */
 
-#import "@preview/fontawesome:0.2.0" as fa
+#import "@preview/fontawesome:0.5.0" as fa
 
 #let entry(
   tl: lorem(4), // "Role | Employer/Project",
@@ -48,7 +48,6 @@ References:
   } else if lang == "zh" {
     if use-serif {
       fonts = (
-        "Garamond",
         "Times New Roman",
         "Noto Serif CJK SC",
         "Source Han Serif SC",
@@ -79,7 +78,7 @@ References:
     numbering: "1 / 1",
   )
   set par(
-    justify: true,
+    justify: false,
     leading: if lang == "en" {0.65em} else {0.65em},
   )
 
@@ -104,21 +103,18 @@ References:
   body
 }
 
-#let TeX = style(styles => {
-  // set text(font: "New Computer Modern")
-  let e = measure("E", styles)
-  let T = "T"
-  let E = text(1em, baseline: e.height * 0.31, "E")
-  let X = "X"
-  box(T + h(-0.15em) + E + h(-0.125em) + X)
-})
+// https://github.com/typst/typst/discussions/1732
+#let TeX = {
+  set text(font: "New Computer Modern")
+  let t = "T"
+  let e = text(baseline: 0.22em, "E")
+  let x = "X"
+  box(t + h(-0.14em) + e + h(-0.14em) + x)
+}
 
-#let LaTeX = style(styles => {
-  // set text(font: "New Computer Modern")
-  let a-size = 0.66em
-  let l = measure("L", styles)
-  let a = measure(text(a-size, "A"), styles)
-  let L = "L"
-  let A = box(scale(x: 105%, text(a-size, baseline: a.height - l.height, "A")))
-  box(L + h(-a.width * 0.67) + A + h(-a.width * 0.25) + TeX)
-})
+#let LaTeX = {
+  set text(font: "New Computer Modern")
+  let l = "L"
+  let a = text(baseline: -0.35em, size: 0.66em, "A")
+  box(l + h(-0.32em) + a + h(-0.13em) + TeX)
+}
