@@ -36,13 +36,13 @@
   dl: [Bachelor of Computer Science and Technology],
   dr: [Beijing, China],
 )[
-  - GPA: 91.2/100 (Top 10%), CET-6: 513
+  - GPA: 91.2/100 (Top 10%), English Level: CET-6 513
 ]
 
 == Research Experience
 
 #entry(
-  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re­Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
+  tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re--Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
   tr: [],
 )[
   - Analyze the erroneous assumptions implied in entity matching benchmarks
@@ -59,7 +59,7 @@
 
 #entry(
   tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
-  tr: [Submit to ACL ARR 2024 February],
+  tr: [Submit to ACL ARR 2024 June],
 )[
   - Investigate different (proposed) strategies for entity matching with LLMs
   - Propose a compositional framework for more effective and efficient than single strategies
@@ -109,6 +109,6 @@
 - Expertise: Software development, Data Structures & Algorithms, DevOps, Data Analytics
 - Programming Languages: Python, C++, C, Bash | SQL, Java, Lua, TypeScript
 - Software: macOS/Linux, Emacs, Git, Docker, Ray, Spark, #LaTeX
-- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("https://github.com/pulls?page=4&q=is%3Apr+author%3Atshu-w")[other 33] repositories.
+- Open Source Contributions: contributed to #link("https://github.com/Lightning-AI/pytorch-lightning")[Pytorch Lightning] (10 commits) and #link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[other 38] repositories.
 
 #align(right, text(fill: gray, size: 0.9em)[Last Updated on #datetime.today().display("[month repr:short] [day padding:space], [year]")])
