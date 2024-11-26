@@ -12,11 +12,12 @@ jobs:
         with:
           cache-dependency-path: tmpl.typ
       - run: |
-          brew install font-fontawesome font-noto-serif-cjk-sc font-noto-sans-cjk-sc
+          brew install font-fontawesome font-noto-serif-cjk-sc font-noto-sans-cjk-sc font-ibm-plex-sans font-ibm-plex-serif font-ibm-plex-mono
       - run: |
           mkdir artifacts
           typst compile en.typ artifacts/en.pdf
           typst compile zh.typ artifacts/zh.pdf
+          typst compile slide_zh.typ artifacts/slide_zh.pdf
       - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
