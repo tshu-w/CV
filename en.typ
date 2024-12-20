@@ -43,26 +43,26 @@
 
 #entry(
   tl: [Tianshu Wang _et al._, "Bridging the Gap between Reality and Ideality of Entity Matching: A Revisting and Benchmark Re--Constrcution", in _Proc. of IJCAI 2022_, pp. 3978–3984. doi: #link("https://doi.org/10.24963/ijcai.2022/552")[10.24963/ijcai.2022/552].],
-  tr: [],
+  tr: [Oral],
 )[
   - Analyze the erroneous assumptions implied in entity matching benchmarks
   - Construct the first open entity, imbalanced label, and multimodal benchmarks to mitigate evaluation bias
 ]
 
 #entry(
-  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", _CoRR_, 2023, doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463].],
-  tr: [Submit to ICDE 2025],
-)[
-  - Present a LLM-Copilot collaboration framework for scaling natural language querying to massive databases
-  - Propose a relation-aware, generative joint retrieval approach for schema routing
-]
-
-#entry(
-  tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", _CoRR_, 2024, doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
-  tr: [Submit to ACL ARR 2024 June],
+  tl: [Tianshu Wang _et al._, "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching", in _Proc. of COLING 2025_. doi: #link("https://doi.org/10.48550/arXiv.2405.16884")[10.48550/arXiv.2405.16884].],
+  tr: [],
 )[
   - Investigate different (proposed) strategies for entity matching with LLMs
   - Propose a compositional framework for more effective and efficient than single strategies
+]
+
+#entry(
+  tl: [Tianshu Wang _et al._, "DBCopilot: Scaling Natural Language Querying to Massive Databases", under revision in _Proc. of EDBT 2025_. doi: #link("https://doi.org/10.48550/arXiv.2312.03463")[10.48550/arXiv.2312.03463]. #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 59 stars],
+  tr: [],
+)[
+  - Present a LLM-Copilot collaboration framework for scaling natural language querying to massive databases
+  - Propose a relation-aware, generative joint retrieval approach for schema routing
 ]
 
 #entry(
