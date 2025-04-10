@@ -1,6 +1,6 @@
 /*
 References:
-  1. https://typst.app/project/p_Bky8MIksPGK39OpsflJw
+  1. https://typst.app/universe/package/guided-resume-starter-cgc
 */
 
 #import "@preview/fontawesome:0.5.0" as fa
@@ -24,8 +24,8 @@ References:
   lang: "en", // https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
   use-serif: true,
   align: "left",
-  inline-heading: true,
-  textsize: 11pt, // The recommend resume text size is from `10pt` to `12pt`
+  inline-heading: false,
+  font-size: 10.5pt, // The recommend resume font size is from `10pt` to `12pt`
   margin: (x: 1.5cm, y: 2cm),
   body
 ) = {
@@ -49,15 +49,27 @@ References:
   } else if lang == "zh" {
     if use-serif {
       fonts = (
-        "Times New Roman",
+        (
+          name: "Times New Roman",
+          covers: "latin-in-cjk",
+        ),
         "Noto Serif CJK SC",
         "Source Han Serif SC",
       )
     } else {
       fonts = (
-        "Helvetica Neue",
-        "Gill Sans",
-        "Optima",
+        (
+          name: "Helvetica Neue",
+          covers: "latin-in-cjk",
+        ),
+        (
+          name: "Gill Sans",
+          covers: "latin-in-cjk",
+        ),
+        (
+          name: "Optima",
+          covers: "latin-in-cjk",
+        ),
         "Noto Sans CJK SC",
         "Source Han Sans SC",
       )
@@ -71,7 +83,7 @@ References:
   set text(
     font: fonts,
     lang: lang,
-    size: textsize,
+    size: font-size,
     number-type: if lang == "zh" {"lining"} else {auto},
   )
   set page(
@@ -81,25 +93,23 @@ References:
   )
   set par(
     justify: false,
-    leading: if lang == "en" {0.65em} else {0.65em},
   )
+  show heading.where(level: 1): it => block({
+    set text(size: 22pt, weight: "regular")
+    smallcaps(it.body)
+  })
+  show heading.where(level: 2): it => block({
+    set text(size: font-size * 1.4, weight: "bold")
+    let hline = line(length: 100%, stroke: 1pt)
 
-  show heading.where(level: 1): it => block([
-    #set text(size: 22pt, weight: "regular")
-    #smallcaps(it.body)
-  ])
-  show heading.where(level: 2): it => block([
-    #set text(size: textsize * 1.4, weight: "bold")
-    #let hline = line(length: 100%, stroke: 1pt)
-
-    #if inline-heading [
-      #it.body
-      #box(width: 1fr, hline)
-    ] else [
-      #pad(bottom: -15pt, it.body)
-      #hline
-    ]
-  ])
+    if inline-heading {
+      it.body
+      box(width: 1fr, hline)
+    } else {
+      pad(bottom: -0.9em, it.body)
+      hline
+    }
+  })
   show link: underline
   show bibliography: set text(lang: "en")
   body

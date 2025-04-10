@@ -5,7 +5,8 @@
 #show: body => tmpl(
   author: author,
   lang: "en",
-  textsize: 10pt,
+  inline-heading: true,
+  font-size: 10.5pt,
   body
 )
 
