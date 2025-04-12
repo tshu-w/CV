@@ -147,3 +147,5 @@ References:
     place(top, dx: 0.7em)[#TeX]
   })
 }
+
+#let hair_space() = [\u{200A}]
