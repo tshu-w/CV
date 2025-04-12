@@ -11,12 +11,20 @@ References:
   dl: [], // "Summary"
   dr: [], // "Location"
   details,
-) = {
-  tl; h(1fr); tr; linebreak();
+) = context {
+  set block(below: par.spacing)
+
+  let content = (tl, tr)
   if dl != [] or dr != [] {
-    dl; h(1fr); dr; linebreak();
+    content = (tl, tr, dl, dr)
   }
-  details;
+  grid(
+    columns: (1fr, auto),
+    align: (left + horizon, right + horizon),
+    row-gutter: par.leading,
+    ..content
+  )
+  details
 }
 
 #let tmpl(
@@ -112,6 +120,11 @@ References:
   })
   show link: underline
   show bibliography: set text(lang: "en")
+  show grid: it => context {
+    set block(spacing: par.leading)
+    it
+  }
+
   body
 }
 
