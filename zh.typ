@@ -34,7 +34,7 @@
 
 王天舒，中科院软件所 21 级博士生，预计于 25 年 09 月或 26 年 01 月毕业。
 研究方向包括大模型推理、数据集成和检索增强生成等。
-在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 5 篇（口头报告 3 次）*，获 *EDBT 25 最佳论文奖亚军*和 *ACL 24 领域主席奖*。
+在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 6 篇（口头报告 3 次）*，获 *EDBT 25 最佳论文奖亚军*和 *ACL 24 领域主席奖*。
 曾获 *ICPC/CCPC 区域赛金奖 5 次*，*邀请赛季军 1 次*。
 于*商汤研究院*和*字节跳动 AI Lab* 实习期间，参与多个核心项目，兼具学术研究与工程实践。
 
@@ -71,7 +71,7 @@
 == 科研工作
 
 #entry(
-  tl: [*DBCopilot: Natural Language Querying over Massive Databases via Schema Routing (🏆 _1st Runner-Up for Best Research Paper Award_)* #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 95 stars],
+  tl: [*DBCopilot: Natural Language Querying over Massive Databases via Schema Routing (🏆 _1st Runner-Up for Best Research Paper Award_)* #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 100+ stars],
   tr: [#link("https://openproceedings.org/2025/conf/edbt/paper-209.pdf")[EDBT 2025]],
 )[
   - 国内外首篇将生成式检索应用于大模型图检索增强生成的学术论文，荣获*最佳论文奖亚军*
@@ -107,10 +107,10 @@
 
 #entry(
   tl: [*ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search*],
-  tr: [投稿至 ACL 2025],
+  tr: [ACL 2025],
 )[
   - 提出基于风险自适应蒙特卡洛树搜索的知识增强推理框架，在开放域复杂推理任务上超越现有方法 20+%
-  - 以*共同一作*身份投稿至 *CCF A* 类国际学术会议 ACL 2025
+  - 以*共同一作*身份发表于 *CCF A* 类国际学术会议 ACL 2025
 ]
 
 // #entry(
@@ -169,7 +169,7 @@
 
 == 综合实践
 
-- 开源贡献：GitHub 累积获得 #link("https://github.com/tshu-w")[384] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[38]个开源项目多次贡献代码
+- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[38]个开源项目多次贡献代码
 - 学术审稿：ACL ARR - February/May 2025，KDD 2024/2025 Research Track，NeurIPS 2024 TRL 审稿人
 - 技术社区：Stack Overflow 声望（Reputation） #link("https://stackoverflow.com/users/18118915/tianshu-wang")[758]，Emacs Stack Exchange 声望 #link("https://emacs.stackexchange.com/users/37333/tianshu-wang")[1889]
 - 教学助教：中科院软件所“智能信息检索”，北京交通大学“C 语言程序设计”、ACM-ICPC 校队暑期培训
