@@ -92,6 +92,7 @@ References:
     font: fonts,
     lang: lang,
     size: font-size,
+    fill: rgb("#121212"),
     number-type: if lang == "zh" {"lining"} else {auto},
   )
   set page(
@@ -103,11 +104,11 @@ References:
     justify: false,
   )
   show heading.where(level: 1): it => block({
-    set text(size: 22pt, weight: "regular")
+    set text(size: 22pt, weight: "regular", fill: black)
     smallcaps(it.body)
   })
   show heading.where(level: 2): it => block({
-    set text(size: font-size * 1.4, weight: "bold")
+    set text(size: font-size * 1.4, weight: "bold", fill: black)
     let hline = line(length: 100%, stroke: 1pt)
 
     if inline-heading {
