@@ -363,7 +363,7 @@ DBCopilot 对用户查询与 Schema 不一致时更加鲁棒
 ]
 #footer("Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching")
 
-== ComEM: Compound Entity Matching System
+== ComEM: Compound EM Framework
 
 #grid(
   columns: (1.2fr, 1fr),
