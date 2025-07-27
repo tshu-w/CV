@@ -94,12 +94,13 @@
 #block[
   #set text(0.85em)
 
-  === Spiral of Silences: How is Large Language Model Killing Information Retrieval?--A Case Study on Open Domain Question Answering (🏆 _SAC Awards_) #h(1fr) ACL 24
+  === Spiral of Silences: How is Large Language Model Killing Information Retrieval?--A Case Study on Open Domain Question Answering (🏆 _Area Chair\'s Award_) #h(1fr) ACL 24
   - 构建模拟迭代框架，分析大模型生成文本对信息检索和问答带来的灾难性影响，并探讨缓解策略
 
   === ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search #h(1fr) ACL 25
   - 提出基于风险自适应蒙特卡洛树搜索的知识增强推理框架，在开放域复杂推理任务上超越现有方法 20+%
 
+  // 自监督学习的不变性不是数据驱动的
   === Towards Universal Dense Blocking for Entity Resolution
   - 基于 GitTables 训练通用实体记录（Record）表示模型，以实现无需特定领域数据微调的稠密分块
 ]
@@ -134,7 +135,7 @@
 - 技术特长：熟悉大模型、智能体、信息检索、自然语言处理、软件开发、数据挖掘、DevOps 等领域相关技术
 - 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java，具有优秀的代码实现能力
 - 系统工具：熟练使用 macOS/Linux，Git，PyTorch，Docker，Ray，Spark，Elasticsearch，Emacs，#LaTeX 等
-- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[38]个开源项目多次贡献代码
+- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[44]个开源项目多次贡献代码
 
 = 大模型数据集成
 == DBCopilot：动机
@@ -287,7 +288,7 @@ DBCopilot 对用户查询与 Schema 不一致时更加鲁棒
 == EMber：开放域实体匹配
 #block[
   #set text(0.85em)
-  === 开放实体消解语料库
+  === 实体消解语料库
   - 包含 10,000 个实体和 126,277 条记录（阿里电商的真实场景数据）\
     每个实体的记录数目在 10 到 20 之间
   - 属于相同实体的记录被人工标记并聚为一个簇
