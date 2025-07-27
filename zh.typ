@@ -34,7 +34,7 @@
 
 == 个人简介
 
-王天舒，中科院软件所 21 级博士生，预计于 25 年 09 月或 26 年 01 月毕业。
+王天舒，中科院软件所 21 级博士生，预计于 25 年 9 月毕业。
 研究方向包括大模型推理、数据集成和检索增强生成等。
 在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 6 篇（口头报告 3 次）*，获 *EDBT 25 最佳论文奖亚军*和 *ACL 24 领域主席奖*。
 曾获 *ICPC/CCPC 区域赛金奖 5 次*，*邀请赛季军 1 次*。
@@ -83,7 +83,7 @@
 ]
 
 #entry(
-  tl: [*Spiral of Silence: How is Large Language Model Killing Information Retrieval?---A Case Study on Open Domain Question Answering (🏆 _SAC Awards_)*],
+  tl: [*Spiral of Silence: How is Large Language Model Killing Information Retrieval?---A Case Study on Open Domain Question Answering (🏆 _Area Chair\'s Award_)*],
   tr: [#link("https://aclanthology.org/2024.acl-long.798")[ACL 2024]],
 )[
   - 构建模拟迭代框架，分析大模型生成文本对信息检索和问答带来的灾难性影响，并探讨缓解策略
