@@ -3,7 +3,7 @@ References:
   1. https://typst.app/universe/package/guided-resume-starter-cgc
 */
 
-#import "@preview/fontawesome:0.5.0" as fa
+#import "@preview/fontawesome:0.6.0" as fa
 
 #let entry(
   tl: lorem(4), // "Role | Employer/Project",
