@@ -35,7 +35,7 @@
 == 个人简介
 
 王天舒，中科院软件所 21 级博士生，预计于 25 年 9 月毕业。
-研究方向包括大模型推理、数据集成和检索增强生成等。
+研究方向包括大模型、数据集成和检索增强生成等。
 在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 6 篇（口头报告 3 次）*，获 *EDBT 25 最佳论文奖亚军*和 *ACL 24 领域主席奖*。
 曾获 *ICPC/CCPC 区域赛金奖 5 次*，*邀请赛季军 1 次*。
 于*商汤研究院*和*字节跳动 AI Lab* 实习期间，参与多个核心项目，兼具学术研究与工程实践。
@@ -49,7 +49,7 @@
   dr: [北京，海淀区]
 )[
   - 研究方向：数据集成、大模型、检索增强生成
-  - 平均绩点：3.73/4，荣誉奖项：中科院院长奖、三好学生、一等学业奖学金
+  - 平均绩点：3.73/4，荣誉奖项：*中科院院长奖*、三好学生、一等学业奖学金
 ]
 
 #entry(
@@ -171,7 +171,7 @@
 
 == 综合实践
 
-- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[38]个开源项目多次贡献代码
+- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[44]个开源项目多次贡献代码
 - 学术审稿：ACL ARR - February/May 2025，KDD 2024/2025 Research Track，NeurIPS 2024 TRL 审稿人
 - 技术社区：Stack Overflow 声望（Reputation） #link("https://stackoverflow.com/users/18118915/tianshu-wang")[758]，Emacs Stack Exchange 声望 #link("https://emacs.stackexchange.com/users/37333/tianshu-wang")[1889]
 - 教学助教：中科院软件所“智能信息检索”，北京交通大学“C 语言程序设计”、ACM-ICPC 校队暑期培训
