@@ -74,7 +74,7 @@ Experienced in both academic research and engineering practice through internshi
 == Research Experience
 
 #entry(
-  tl: [*DBCopilot: Natural Language Querying over Massive Databases via Schema Routing (🏆 _1st Runner-Up for Best Research Paper Award_)* #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 100+ stars],
+  tl: [*DBCopilot: Natural Language Querying over Massive Databases via Schema Routing \ (🏆 _1st Runner-Up for Best Research Paper Award_)* #fa.fa-github() #link("https://github.com/tshu-w/DBCopilot")[tshu-w/DBCopilot] #fa.fa-star() 100+ stars],
   tr: [#link("https://openproceedings.org/2025/conf/edbt/paper-209.pdf")[EDBT 2025]],
 )[
   - First work to apply generative retrieval to LLM graph RAG, won *Best Paper Runner-Up Award*
@@ -110,7 +110,7 @@ Experienced in both academic research and engineering practice through internshi
 
 #entry(
   tl: [*ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search*],
-  tr: [ACL 2025],
+  tr: [#link("https://aclanthology.org/2025.acl-long.538/")[ACL 2025]],
 )[
   - Propose knowledge-augmented reasoning framework based on risk-adaptive Monte Carlo tree search, outperforming existing methods by 20+% on open-domain complex reasoning tasks
   - *Co-first author* published at *CCF-A* conference ACL 2025

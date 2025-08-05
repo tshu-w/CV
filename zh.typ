@@ -109,7 +109,7 @@
 
 #entry(
   tl: [*ARise: Towards Knowledge-Augmented Reasoning via Risk-Adaptive Search*],
-  tr: [ACL 2025],
+  tr: [#link("https://aclanthology.org/2025.acl-long.538/")[ACL 2025]],
 )[
   - 提出基于风险自适应蒙特卡洛树搜索的知识增强推理框架，在开放域复杂推理任务上超越现有方法 20+%
   - 以*共同一作*身份发表于 *CCF A* 类国际学术会议 ACL 2025
