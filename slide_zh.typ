@@ -47,7 +47,7 @@
 
 === *中国科学院软件研究所*・计算机科学与技术・博士研究生
 - 研究方向：数据集成、大模型、检索增强生成
-  （Entity Resolution、Structured Text Retrieval、Text2SQL 等）
+  （Entity Resolution、Structured Text Retrieval、NL2SQL 等）
 - 平均绩点：3.73/4，导师：孙乐、韩先培 研究员（硕转博）
 - 荣誉奖项：中科院院长奖、一等学业奖学金、三好学生
 === *北京交通大学*・计算机科学与技术・学士
@@ -141,7 +141,7 @@
 == DBCopilot：动机
 
 目标：使用 LLM 做数据库的通用接口（NLIDB）\
-需求：将 Text2SQL 从少量 DB 扩展到成千上万的 DB
+需求：将 NL2SQL 从少量 DB 扩展到成千上万的 DB
 #image("images/DBCopilot_fig1.png", width: 75%)
 
 #footer("DBCopilot: Natural Language Querying over Massive Databases via Schema Routing")
@@ -167,14 +167,14 @@
   gutter: 0.5em,
 )[
   #set text(0.85em)
-  === *核心思想*：将 Text2SQL 解耦为两个过程 \
+  === *核心思想*：将 NL2SQL 解耦为两个过程 \
   利用小模型封装快速变化的 Schema 路由
 
   - #alert[*_Schema Routing_*]: 从海量的数据库中确认与当前查询相关的 DB 和 Tables \
     - 针对 prompt 长度有限和 LLM 长文本理解能力不足的问题 \
     - 使用轻量级模型单独训练 \
   - #alert[*SQL Generation*]：给定包含足够信息的 prompt，将自然语言查询转为 SQL \
-    - 可以与各种最先进的 LLM-based Text2SQL 方案集成
+    - 可以与各种最先进的 LLM-based NL2SQL 方案集成
     - 灵活适配多种 SQL Dialects
 ][
   #image("images/DBCopilot.png")
@@ -257,7 +257,7 @@ DBCopilot 对用户查询与 Schema 不一致时更加鲁棒
 
 #block(spacing: 0.3em)[
   #set text(0.9em)
-  1. DBCopilot 在 Schema-agnostic Text2SQL 中优于检索基线
+  1. DBCopilot 在 Schema-agnostic NL2SQL 中优于检索基线
   2. LLM 会显著受到无关 Schema 的影响
 ]
 #align(
