@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: private-contact-leak
+        name: block private contact details
+        entry: bash scripts/check-private-contacts.sh
+        language: system
+        pass_filenames: false
