@@ -32,31 +32,49 @@
 
 == 个人简介
 
-王天舒，中科院软件所 21 级博士生，预计于 25 年 9 月毕业。
-研究方向包括大模型、数据集成和检索增强生成等。
-在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 6 篇（口头报告 3 次）*，获 *EDBT 25 最佳论文奖亚军*和 *ACL 24 领域主席奖*。
-曾获 *ICPC/CCPC 区域赛金奖 5 次*，*邀请赛季军 1 次*。
-于*商汤研究院*和*字节跳动 AI Lab* 实习期间，参与多个核心项目，兼具学术研究与工程实践。
+王天舒，中科院软件所博士，现任*蚂蚁集团百灵大模型算法专家*，专注大语言模型后训练与通用 Agent 能力提升。
+参与 Ring 系列模型合版，覆盖数据准备、模型训练（SFT、RL、OPD）及评测迭代等完整后训练链路。
+科研方面，在 ACL、IJCAI、EDBT 等 CCF A/B 类国际会议*发表论文 6 篇*，获 *EDBT 2025 最佳论文奖亚军*、*ACL 2024 领域主席奖（1%）*；
+算法竞赛方面，曾获 *ICPC/CCPC 区域赛金奖 5 次*、*邀请赛季军 1 次*。
+
+== 工作经历
+
+#entry(
+  tl: [*算法专家*，蚂蚁集团・语言基座],
+  tr: [2025-10 -- 至今],
+)[
+  - 深度参与 Ring 2.5/2.6 模型通用 Agent 能力建设与后训练合版，覆盖数据准备、模型训练及评测迭代闭环
+  - 面向 Gaia2 优化评测链路，结合任务环境构建与 Agentic RL 训练，推动 Ring 2.5 达到 75.00 分（+50.50 分）
+  - 支撑 Ring 2.6 在 ClawEval、PinchBench 等通用 Agent 评测中跻身第一梯队，分别达到 63.82 和 87.60 分
+]
+
+#entry(
+  tl: [*科研实习生*，商汤科技研究院],
+  tr: [2024-06 -- 2025-04],
+)[
+  - 主导大模型知识增强推理研究，在开放域复杂推理任务上超越现有方法 23.10%\~25.37%
+  - 参与“数据先兵”产品算法方案调研与部分算法方案实现，支撑 WAIC 大会展示及宁波银行一期项目交付
+]
+
+#entry(
+  tl: [*算法实习生*，字节跳动 AI Lab],
+  tr: [2019-02 -- 2019-08],
+)[
+  - 使用 Hive & Spark 统计综搜高频 query 的精准问答覆盖情况，支撑头条搜索“精准问答”项目的正向挖掘
+  - 通过 MapReduce 对 7 亿+ CQA 数据按答案类型、问题意图、答案质量等维度筛选，构建反向候选问答池
+]
+
 
 == 教育背景
 
 #entry(
-  tl: [*中国科学院软件研究所・国科大杭州高等研究院*，中文信息处理实验室],
-  tr: [2021-09 -- 2025-09],
-  dl: [计算机科学与技术，硕博连读（博士），导师：孙乐 研究员],
+  tl: [*中国科学院软件研究所・中国科学院大学*，中文信息处理实验室],
+  tr: [2019-09 -- 2025-09],
+  dl: [博士（硕博连读），导师：孙乐 / 韩先培 研究员],
   dr: [北京，海淀区]
 )[
-  - 研究方向：数据集成、大模型、检索增强生成
-  - 平均绩点：3.73/4，荣誉奖项：*中科院院长奖*、三好学生、一等学业奖学金
-]
-
-#entry(
-  tl: [*中国科学院软件研究所*，中文信息处理实验室],
-  tr: [2019-09 -- 2021-09],
-  dl: [计算机软件与理论，硕博连读（硕士），导师：韩先培 研究员],
-  dr: [北京，海淀区]
-)[
-  - 研究方向：实体消解、结构化数据检索
+  - 研究方向：大模型、数据集成、检索增强生成；平均绩点：3.73/4
+  - 荣誉奖项：*中科院院长奖*、三好学生、一等学业奖学金
 ]
 
 #entry(
@@ -101,7 +119,7 @@
   tr: [#link("https://aclanthology.org/2025.coling-main.8/")[COLING 2025]],
 )[
   - 国内外首篇将排序学习（L2R） pointwise、pairwise 和 listwise 思想引入实体匹配的学术论文
-  - 提出并探究大模型实体匹配的不同策略，并基于探究结果设计更具性能和效率的复合实体匹配框架
+  - 提出并探究大模型实体匹配的不同策略，并据此设计性能和效率更优的复合实体匹配框架
   - 以*第一作者*身份发表于 *CCF B* 类国际学术会议 COLING 2025，并作*口头报告*（Oral Presentation）
 ]
 
@@ -119,27 +137,6 @@
 // )[
 //   - 基于 GitTables 训练通用结构化记录表示模型，以实现无需特定领域数据微调的实体分块
 // ]
-
-== 工作经历
-
-#entry(
-  tl: [*大模型算法实习生*，商汤研究院],
-  tr: [2024-06 -- 2025-04],
-)[
-  - 主导大模型知识增强推理的研究工作，在开放域复杂推理任务上超越现有方法 23.10%\~25.37%
-  - 参与“数据先兵”产品算法技术方案调研、讨论与实现，助力 WAIC 大会展示和宁波银行一期项目交付
-  - 所在团队荣获商汤科技 2024 年度杰出团队奖
-]
-
-#entry(
-  tl: [*算法实习生*，字节跳动 AI Lab],
-  tr: [2019-02 -- 2019-08],
-)[
-  协助头条搜索“精准问答”项目的开发及优化
-  - 使用 Spark & Hive 统计综搜每日 Top 10 的精准问答覆盖情况，为正向挖掘提供支持
-  - 通过 MapReduce 对全量七亿+ CQA 数据根据规则、答案类型、问题意图、答案质量等维度进行筛选
-  - 使用动态规划算法优化答案摘要生成模块，提升摘要抽取效率超 50%
-]
 
 == 荣誉奖项
 
@@ -160,19 +157,12 @@
   - *金奖 × 3*：第 3 届秦皇岛站，第 4 届桂林站、吉林站
 ]
 
-== 专业技能
+== 专业能力
 
-- 技术特长：熟悉大模型、智能体、信息检索、自然语言处理、软件开发、数据挖掘、DevOps 等领域相关技术
-- 编程语言：掌握 Python，C++，Bash，熟悉 SQL，Lua，TypeScript，Java，具有优秀的代码实现能力
-- 系统工具：熟练使用 macOS/Linux，Git，PyTorch，Docker，Ray，Spark，Elasticsearch，Emacs，#LaTeX 等
-- 通用能力：善于阅读文献、快速学习，具备优秀的分析和解决问题的能力，以及良好的沟通协作能力
-
-== 综合实践
-
-- 开源贡献：GitHub 获得 #link("https://github.com/tshu-w")[400+] 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[44]个开源项目多次贡献代码
-- 学术审稿：ACL ARR - February/May 2025，KDD 2024/2025 Research Track，NeurIPS 2024 TRL 审稿人
-- 技术社区：Stack Overflow 声望（Reputation） #link("https://stackoverflow.com/users/18118915/tianshu-wang")[758]，Emacs Stack Exchange 声望 #link("https://emacs.stackexchange.com/users/37333/tianshu-wang")[1889]
-- 教学助教：中科院软件所“智能信息检索”，北京交通大学“C 语言程序设计”、ACM-ICPC 校队暑期培训
+- 研究方向：大模型后训练、通用 Agent 能力评测与提升、数据集成、信息检索、自然语言处理
+- 技术栈：Python、C++、TypeScript、SQL；PyTorch、Ray、Docker、Spark、Elasticsearch；Linux、Git
+- 智能体工程：构建 #link("https://github.com/tshu-w/agentd")[agentd]、#link("https://github.com/tshu-w/pi-control")[pi-control] 等项目，探索 Agent 持久化运行、上下文管理与运行时自控制
+- 开源贡献：GitHub 获得 400+ 个 Stars，向 #link("https://github.com/Lightning-AI/pytorch-lightning")[PyTorch Lightning]（12 commits）等#link("https://github.com/pulls?page=1&q=is%3Apr+author%3Atshu-w")[44] 个开源项目多次贡献代码
 
 // == 学术论文
 
